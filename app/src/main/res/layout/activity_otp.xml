@@ -91,6 +91,36 @@
 
         </com.om.sitaramfrem.view.CustomTextInputLayout>
 
+        <LinearLayout
+            android:id="@+id/mLayoutOtpTimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_15"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/mTxtOtpTimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorGray"
+                android:textSize="@dimen/fontsize_14" />
+
+            <TextView
+                android:id="@+id/mTxtResendOtp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size_5"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="@dimen/size_5"
+                android:text="@string/lbl_resend_otp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/fontsize_14"
+                android:visibility="gone" />
+        </LinearLayout>
+
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/mBtnVerify"
             android:layout_width="match_parent"

@@ -42,6 +42,9 @@
     <string name="lbl_verify_the_verification_code">Verify the verification code we have\nbeen sent you on your number</string>
     <string name="lbl_enter_otp">Enter otp</string>
     <string name="lbl_verify">Verify</string>
+    <string name="lbl_otp_expires_in">OTP expires in: %1$s</string>
+    <string name="lbl_otp_expired">OTP has expired</string>
+    <string name="lbl_resend_otp">Resend OTP</string>
     <string name="lbl_order_no">ઓર્ડર નંબર:</string>
     <string name="lbl_frame_measure_colon">ફ્રેમ સાઈઝ:</string>
     <string name="lbl_item_name_colon">વસ્તુનું નામ:</string>

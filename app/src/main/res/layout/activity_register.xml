@@ -110,10 +110,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/size_5"
+            android:paddingStart="@dimen/size_10"
             android:text="@string/hint_enter_whatsapp_number_only"
-            android:textColor="@color/black"
-            android:textSize="@dimen/fontsize_14"
-            android:textStyle="bold" />
+            android:textColor="@color/colorGray"
+            android:textSize="@dimen/fontsize_12" />
 
         <com.om.sitaramfrem.view.CustomTextInputLayout
             android:id="@+id/mTilAddress"

@@ -40,6 +40,12 @@ public interface APIInterface {
     );
 
     @FormUrlEncoded
+    @POST("resend_otp")
+    Call<ResponseBody> resendOtp(
+            @Field("data") String data
+    );
+
+    @FormUrlEncoded
     @POST("reset_password")
     Call<ResponseBody> resetPassword(
             @Field("data") String data
