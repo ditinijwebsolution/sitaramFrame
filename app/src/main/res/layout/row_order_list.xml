@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/size_10"
+    android:layout_marginTop="@dimen/size_5"
+    android:layout_marginEnd="@dimen/size_10"
+    android:layout_marginBottom="@dimen/size_5"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="@dimen/size_10"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/size_10">
+
+        <TextView
+            android:id="@+id/mTxtDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/colorGray"
+            android:textSize="@dimen/fontsize_10"
+            tools:text="23-11-2021" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/size_5"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="@string/lbl_order_no"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/fontsize_14" />
+
+                    <TextView
+                        android:id="@+id/mTxtOrderNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dp"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:textColor="@color/colorGray"
+                        android:textSize="@dimen/fontsize_14"
+                        tools:text="5" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/size_5"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="@string/lbl_item_name_colon"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/fontsize_14" />
+
+                    <TextView
+                        android:id="@+id/mTxtItemName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dp"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:textColor="@color/colorGray"
+                        android:textSize="@dimen/fontsize_14"
+                        tools:text="5" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/size_5"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="@string/lbl_frame_no_colon"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/fontsize_14" />
+
+                    <TextView
+                        android:id="@+id/mTxtFrameNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dp"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:textColor="@color/colorGray"
+                        android:textSize="@dimen/fontsize_14"
+                        tools:text="10 X 10" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/size_5"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="@string/lbl_frame_measure_colon"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/fontsize_14" />
+
+                    <TextView
+                        android:id="@+id/mTxtFrameMeasure"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dp"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:textColor="@color/colorGray"
+                        android:textSize="@dimen/fontsize_14"
+                        tools:text="5" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/size_5"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="@string/lbl_quantity_colon"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/fontsize_14" />
+
+                    <TextView
+                        android:id="@+id/mTxtQty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dp"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:textColor="@color/colorGray"
+                        android:textSize="@dimen/fontsize_14"
+                        tools:text="5" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/size_5"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@string/lbl_order_status_colon"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/fontsize_14" />
+
+                <TextView
+                    android:id="@+id/mTxtOrderStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorGray"
+                    android:textSize="@dimen/fontsize_14"
+                    tools:text="Order status" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/image_category"
+                android:layout_width="@dimen/size_120"
+                android:layout_height="@dimen/size_120"
+                android:layout_marginStart="@dimen/size_10"
+                android:contentDescription="@string/app_name"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_5"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/lbl_notes_colon"
+            android:textColor="@color/black"
+            android:textSize="@dimen/fontsize_14" />
+
+        <TextView
+            android:id="@+id/mTxtNotes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorGray"
+            android:textSize="@dimen/fontsize_14"
+            tools:text="This is" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

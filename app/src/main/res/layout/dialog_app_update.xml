@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_60"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="@string/lbl_new_update_available_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/fontsize_18"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/mTxtMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_30"
+            android:gravity="center"
+            android:padding="@dimen/size_10"
+            android:text="@string/lbl_new_update_available"
+            android:textColor="@color/black"
+            android:textSize="@dimen/fontsize_16" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mBtnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_30"
+            android:layout_marginBottom="@dimen/size_10"
+            android:background="@color/colorPrimary"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:text="@string/lbl_update"
+            android:textColor="@color/white"
+            android:textSize="@dimen/fontsize_18"
+            android:paddingStart="@dimen/size_10"
+            android:paddingEnd="@dimen/size_10"/>
+    </LinearLayout>
+
+</RelativeLayout>

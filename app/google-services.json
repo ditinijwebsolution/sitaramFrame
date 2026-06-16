@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "426512409920",
+    "project_id": "sitaramfrem-e597c",
+    "storage_bucket": "sitaramfrem-e597c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426512409920:android:f2a73208d7f0ca6a7246a5",
+        "android_client_info": {
+          "package_name": "com.om.sitaramfrem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUb0G8B5KHDDk-Fg-SuBC6czqKeib9Btk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

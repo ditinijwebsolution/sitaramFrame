@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "122373277420",
+    "project_id": "sitaram-ed27b",
+    "storage_bucket": "sitaram-ed27b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122373277420:android:83adef8f5ee7eba96407c9",
+        "android_client_info": {
+          "package_name": "com.om.sitaramfrem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122373277420-kbv779sspsqrlj2igjtr0sj3rquhar9o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsxxRT_1tSZ2RSPNaXcTu94oARYgG1lQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122373277420-kbv779sspsqrlj2igjtr0sj3rquhar9o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

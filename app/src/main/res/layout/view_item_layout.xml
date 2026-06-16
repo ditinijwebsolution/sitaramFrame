@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/mBtnRemove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="@string/lbl_remove"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/fontsize_12"
+        android:theme="@style/PinkLightColoredButton" />
+
+    <com.om.sitaramfrem.view.CustomTextInputLayout
+        android:id="@+id/mTilFrameNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorTextAppearance="@style/ErrorTextAppearance"
+        app:hintEnabled="false">
+
+        <pl.utkala.searchablespinner.SearchableSpinner
+            android:id="@+id/mSpinnerFrameNo"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/listPreferredItemHeightSmall"
+            android:background="@drawable/shape_primary_stock"
+            app:closeText="@string/nav_close"
+            app:dialogTitle="@string/lbl_frame_no" />
+
+    </com.om.sitaramfrem.view.CustomTextInputLayout>
+
+    <com.om.sitaramfrem.view.CustomTextInputLayout
+        android:id="@+id/mTilItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorTextAppearance="@style/ErrorTextAppearance"
+        app:hintEnabled="false"
+        android:layout_marginTop="@dimen/size_20">
+
+        <Spinner
+            android:id="@+id/mSpinnerItem"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/listPreferredItemHeightSmall"
+            android:background="@drawable/shape_primary_stock" />
+
+    </com.om.sitaramfrem.view.CustomTextInputLayout>
+
+    <com.om.sitaramfrem.view.CustomTextInputLayout
+        android:id="@+id/mTilMeasure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorTextAppearance="@style/ErrorTextAppearance"
+        app:hintEnabled="false"
+        android:layout_marginTop="@dimen/size_20">
+
+        <Spinner
+            android:id="@+id/mSpinnerMeasure"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/listPreferredItemHeightSmall"
+            android:background="@drawable/shape_primary_stock" />
+
+    </com.om.sitaramfrem.view.CustomTextInputLayout>
+
+    <com.om.sitaramfrem.view.CustomTextInputLayout
+        android:id="@+id/mTilFrameMeasure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_20"
+        android:visibility="gone"
+        app:errorTextAppearance="@style/ErrorTextAppearance"
+        app:hintEnabled="false">
+
+        <EditText
+            android:id="@+id/mEdtFrameMeasure"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/listPreferredItemHeightSmall"
+            android:background="@drawable/shape_primary_stock"
+            android:hint="@string/lbl_frame_measure"
+            android:textColorHint="@color/transparent_50"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="@dimen/size_10"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/fontsize_16" />
+    </com.om.sitaramfrem.view.CustomTextInputLayout>
+
+    <com.om.sitaramfrem.view.CustomTextInputLayout
+        android:id="@+id/mTilQty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_20"
+        app:errorTextAppearance="@style/ErrorTextAppearance"
+        app:hintEnabled="false">
+
+        <EditText
+            android:id="@+id/mEdtQty"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/listPreferredItemHeightSmall"
+            android:background="@drawable/shape_primary_stock"
+            android:digits="@string/reg_number"
+            android:hint="@string/lbl_quantity"
+            android:textColorHint="@color/transparent_50"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLines="1"
+            android:padding="@dimen/size_10"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/fontsize_16" />
+    </com.om.sitaramfrem.view.CustomTextInputLayout>
+
+    <com.om.sitaramfrem.view.CustomTextInputLayout
+        android:id="@+id/mTilNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_20"
+        app:errorTextAppearance="@style/ErrorTextAppearance"
+        app:hintEnabled="false">
+
+        <EditText
+            android:id="@+id/mEdtNotes"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_80"
+            android:background="@drawable/shape_primary_stock"
+            android:gravity="top"
+            android:textColorHint="@color/transparent_50"
+            android:hint="@string/lbl_notes"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:padding="@dimen/size_10"
+            android:textColor="@color/black"
+            android:textSize="@dimen/fontsize_16" />
+    </com.om.sitaramfrem.view.CustomTextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/size_10"
+        android:layout_marginTop="@dimen/size_20"
+        android:text="@string/lbl_frame_image_colon"
+        android:textColor="@color/black"
+        android:textSize="@dimen/fontsize_14"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="@dimen/size_100"
+        android:layout_height="@dimen/size_100"
+        android:layout_marginStart="@dimen/size_10"
+        android:layout_marginTop="@dimen/size_5"
+        android:background="@drawable/shape_item_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/lbl_tap_to_upload_frame_img"
+            android:textColor="@color/black"
+            android:textSize="@dimen/fontsize_10" />
+
+        <ImageView
+            android:id="@+id/mIvFrameImg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ActivityLogin"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:paddingStart="@dimen/size_30"
+        android:paddingEnd="@dimen/size_30">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold|italic"/>
+        <com.om.sitaramfrem.view.CustomTextInputLayout
+            android:id="@+id/mTilMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorTextAppearance="@style/ErrorTextAppearance"
+            app:hintEnabled="false"
+            android:layout_marginTop="@dimen/size_20">
+
+            <EditText
+                android:id="@+id/mEdtMobile"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/listPreferredItemHeightSmall"
+                android:hint="@string/lbl_mobile_number"
+                android:imeOptions="actionNext"
+                android:inputType="numberSigned"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:padding="@dimen/size_10"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/colorGray"
+                android:textSize="@dimen/fontsize_16"
+                android:background="@drawable/shape_primary_stock"/>
+
+        </com.om.sitaramfrem.view.CustomTextInputLayout>
+
+        <com.om.sitaramfrem.view.CustomTextInputLayout
+            android:id="@+id/mTilPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_20"
+            app:errorTextAppearance="@style/ErrorTextAppearance"
+            app:passwordToggleEnabled="true"
+            app:hintEnabled="false">
+
+            <EditText
+                android:id="@+id/mEdtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/listPreferredItemHeightSmall"
+                android:hint="@string/lbl_password"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:padding="@dimen/size_10"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/colorGray"
+                android:textSize="@dimen/fontsize_16"
+                android:maxLength="60"
+                android:background="@drawable/shape_primary_stock"/>
+
+        </com.om.sitaramfrem.view.CustomTextInputLayout>
+
+        <TextView
+            android:id="@+id/mTxtForgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_forgot_password_title"
+            android:textColor="@color/transparent_50"
+            android:textSize="@dimen/fontsize_14"
+            android:textStyle="italic"
+            android:padding="@dimen/size_10"
+            android:layout_gravity="end"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mBtnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/listPreferredItemHeightSmall"
+            android:layout_marginStart="@dimen/size_10"
+            android:layout_marginTop="@dimen/size_30"
+            android:layout_marginEnd="@dimen/size_10"
+            android:background="@drawable/shape_primary_radius"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:text="@string/lbl_log_in"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/fontsize_16" />
+
+        <TextView
+            android:id="@+id/mTxtCreateAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_create_account"
+            android:padding="@dimen/size_10"
+            android:textColor="@color/colorPrimary"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground"
+            android:textSize="@dimen/fontsize_14"
+            android:layout_marginTop="@dimen/size_20"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

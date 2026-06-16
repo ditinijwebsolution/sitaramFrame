@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [<!ENTITY appname "Sitaram Frame">]>
+<resources>
+    <string name="app_name">&appname;</string>
+
+    <string name="lbl_mobile_number">Mobile Number</string>
+    <string name="lbl_whatsapp_number">WhatsApp Number</string>
+    <string name="hint_enter_whatsapp_number_only">Please enter your WhatsApp number only.</string>
+    <string name="lbl_password">Password</string>
+    <string name="lbl_log_in">Log In</string>
+    <string name="lbl_create_account">Create an account</string>
+    <string name="lbl_name">Name</string>
+    <string name="lbl_address">Address</string>
+    <string name="lbl_confirm_password">Confirm Password</string>
+    <string name="lbl_submit">સાચવો</string>
+    <string name="lbl_home">Home</string>
+    <string name="lbl_orders">Orders</string>
+    <string name="lbl_out_of_stock_frame">Out Of Stock Frame</string>
+    <string name="lbl_add_order">Add Order</string>
+    <string name="lbl_review_order">Review Order</string>
+    <string name="lbl_date">Date</string>
+    <string name="lbl_time">Time</string>
+    <string name="lbl_frame_no">ફ્રેમ નંબર</string>
+    <string name="lbl_frame_measure">ફ્રેમ સાઈઝ</string>
+    <string name="lbl_quantity">નંગ</string>
+    <string name="lbl_notes">નોંધ</string>
+    <string name="lbl_add_more">વધુ ઉમેરો</string>
+    <string name="lbl_remove">Remove</string>
+    <string name="lbl_add_details">ઓર્ડર ઉમેરો</string>
+    <string name="lbl_frame_image">ફ્રેમ છબી</string>
+    <string name="lbl_choose_frame_image">ફ્રેમ છબી</string>
+    <string name="lbl_frame_image_colon">ફ્રેમ છબી:</string>
+    <string name="lbl_tap_to_upload_frame_img">ફ્રેમ છબી અપલોડ\nકરવા માટે ટૅપ કરો</string>
+
+    <string name="lbl_profile">Profile</string>
+    <string name="lbl_change_password">Change Password</string>
+    <string name="lbl_logout">Logout</string>
+    <string name="lbl_cancel">Cancel</string>
+    <string name="lbl_update">Update</string>
+    <string name="lbl_new_password">New Password</string>
+    <string name="lbl_current_password">Current Password</string>
+    <string name="lbl_verify_otp">Verify OTP</string>
+    <string name="lbl_verify_the_verification_code">Verify the verification code we have\nbeen sent you on your number</string>
+    <string name="lbl_enter_otp">Enter otp</string>
+    <string name="lbl_verify">Verify</string>
+    <string name="lbl_order_no">ઓર્ડર નંબર:</string>
+    <string name="lbl_frame_measure_colon">ફ્રેમ સાઈઝ:</string>
+    <string name="lbl_item_name_colon">વસ્તુનું નામ:</string>
+    <string name="lbl_frame_no_colon">ફ્રેમ નંબર:</string>
+    <string name="lbl_quantity_colon">નંગ:</string>
+    <string name="lbl_notes_colon">નોંધ:</string>
+    <string name="lbl_order_status_colon">ઓર્ડર સ્થિતિ:</string>
+    <string name="lbl_no_data_found">No data found.</string>
+    <string name="lbl_forgot_password">Forgot Password</string>
+    <string name="lbl_forgot_password_title">Forgot Password?</string>
+    <string name="lbl_enter_your_mobile_number">Enter your mobile number below.\nWe\'ll look for your account and send\nyou a password reset code.</string>
+    <string name="lbl_reset_password">Reset Password</string>
+    <string name="lbl_tab_pending_order">Pending Order</string>
+    <string name="lbl_tab_inprogress_order">Inprogress Order</string>
+    <string name="lbl_tab_completed_order">Completed Order</string>
+    <string name="lbl_no_stock">Out Of Stock</string>
+    <string name="lbl_new_update_available_title">&appname; needs an update</string>
+    <string name="lbl_new_update_available">To use this app, download the latest version</string>
+    <!-- error -->
+    <string name="err_min_text">Minimum</string>
+    <string name="err_max_text">Maximum</string>
+    <string name="err_character_required">characters required.</string>
+    <string name="err_enter_mobile_number">Enter mobile number</string>
+    <string name="err_enter_valid_mobile_number">Enter valid mobile number</string>
+    <string name="err_enter_password">Enter password</string>
+    <string name="err_enter_name">Enter name</string>
+    <string name="err_enter_address">Enter address</string>
+    <string name="err_enter_current_password">Enter current password</string>
+    <string name="err_enter_new_password">Enter new password</string>
+    <string name="err_enter_confirm_password">Enter confirm password</string>
+    <string name="err_new_confirm_password_not_match">New password and confirm password not match</string>
+    <string name="err_enter_frame_measure">Enter Frame measure</string>
+    <string name="err_enter_frame_number">Enter Frame Number</string>
+    <string name="err_enter_quantity">Enter quantity</string>
+    <string name="err_enter_valid_quantity">Enter valid quantity</string>
+    <string name="err_enter_notes">Enter notes</string>
+    <string name="err_select_item">Select Item</string>
+    <string name="err_enter_otp">Enter Otp</string>
+
+
+    <string name="msg_are_you_sure_logout">Are you sure to want Logout?</string>
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <string name="reg_alpha_space" translatable="false">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="reg_alpha_without_space" translatable="false">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="reg_number" translatable="false">0123456789</string>
+    <string name="reg_frame_number" translatable="false">0123456789_- Xx</string>
+    <string name="notification_channel_id" translatable="false">V9</string>
+    <string name="notification_channel_name" translatable="false">SitaramV9</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="see_all">See All</string>
+    <string name="all_category">All Category</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="cart">Cart</string>
+
+    <string name="playstore_link">https://play.google.com/store/apps/details?id=</string>
+</resources>

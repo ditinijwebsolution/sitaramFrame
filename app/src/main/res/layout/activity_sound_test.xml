@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SoundTestActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/mEdtChannelId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Channel Id"/>
+
+    <EditText
+        android:id="@+id/mEdtChannelName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Channel Name"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/mEdtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/mEdtDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:layout_marginTop="10dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+        <RadioButton
+            android:id="@+id/mRbDefault"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Default Sound"
+            android:checked="true"/>
+        <RadioButton
+            android:id="@+id/mRbCartoon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cartoon Sound"/>
+
+        <RadioButton
+            android:id="@+id/mRbClient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Client Sound"/>
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/mBtnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

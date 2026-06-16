@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.FragmentPendingOrder">
+
+    <com.om.superrecyclerview.SuperRecyclerView
+        android:id="@+id/mSRVOrderList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:mainLayoutId="@layout/layout_recyclerview_verticalscroll"
+        app:recyclerClipToPadding="false"
+        app:layout_empty="@layout/inflate_no_data_found"
+        app:layout_progress="@layout/inflate_loading_layout"/>
+
+</FrameLayout>
